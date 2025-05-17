@@ -16,7 +16,7 @@ Generate a JSON file of synthetic dating-app profiles with:
 import random
 import json
 import argparse
-from faker import Faker
+from faker import Faker # type: ignore
 
 GENDERS = ["male", "female", "nonbinary"]
 INTERESTS_POOL = [
